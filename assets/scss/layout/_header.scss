@@ -1,4 +1,54 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header-container-px {
+  padding-right: 12px;
+  padding-left: 12px;
+  @include mobile {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+//logo
+.header-logo-container {
+  @include mobile {
+    max-width: 540px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin: 0 auto;
+  }
+}
+
+.header-logo {
+  max-width: 80px;
+}
+
+//cards
+.header-card-container {
+  width: 40%;
+  background-color: $primary;
+  @include pad {
+    width: 70%;
+  }
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.header-card-col {
+  width: 25%;
+  @include mobile {
+    width: 50%;
+  }
+}
+.header-card-link {
+  font-size: 20px;
+  @include mobile {
+    display: block;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+  }
 }

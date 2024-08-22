@@ -1,0 +1,33 @@
+@mixin pad {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   letter-spacing: 0.1em;
+// }
+
+// p {
+//   letter-spacing: 0.05em;
+// }
