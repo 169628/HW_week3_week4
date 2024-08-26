@@ -14,7 +14,23 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+ul {
+  margin-bottom: 0;
+}
 
 .roboto-regular {
   font-family: "Roboto", sans-serif;
+}
+.roboto-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: $primary;
+  font-size: 48px;
+}
+
+.noto-bold {
+  font-family: "Noto Sans TC", sans-serif;
+  color: $primary-dark;
+  font-weight: 700;
 }

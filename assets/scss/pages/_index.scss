@@ -1,3 +1,102 @@
-.index-title {
-  font-size: 100px;
+//home utils
+.home-title {
+  font-size: 48px;
+  @include mobile {
+    font-size: 24px;
+  }
+}
+
+//banner
+.banner {
+  //筆記: 圖片的 url 要以 html 檔案為出現點，不然會找不到
+  background-image: url("../assets/images/home-header.png");
+  background-size: cover;
+  background-position: center;
+  @include pad {
+    background-image: url("../assets/images/home-header-sm.png");
+  }
+}
+
+.banner-container {
+  height: 91vh;
+  @include mobile {
+    height: 80vh;
+  }
+}
+.banner-subtitle {
+  font-size: 36px;
+  color: $primary-dark;
+  @include mobile {
+    font-size: 16px;
+  }
+}
+.banner-h1 {
+  font-size: 64px;
+  @include mobile {
+    font-size: 24px;
+  }
+}
+.banner-btn {
+  padding: 6px 12px;
+  font-size: 20px;
+}
+
+//intro
+.intro-card-title {
+  font-size: 24px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  @include mobile {
+    padding-top: 16px;
+  }
+}
+
+//經典
+.classic-card {
+  max-width: 416px;
+  @include pad {
+    max-width: 336px;
+  }
+  @include mobile {
+    max-width: 348px;
+  }
+}
+
+//聯名
+.co-branding {
+  background-image: url("../assets/images/index-bg.png");
+  background-size: cover;
+  background-position: center;
+  @include pad {
+    background-image: url("../assets/images/index-bg-sm.png");
+  }
+}
+
+//推薦
+.recommend-card {
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px #00000029;
+}
+
+//contact
+.contact-input {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  outline: none;
+  &:focus {
+    border: $primary 2px solid;
+  }
+}
+.contact-btn {
+  width: 416px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @include pad {
+    width: 336px;
+  }
+  @include mobile {
+    width: 100%;
+  }
 }

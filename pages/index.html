@@ -17,7 +17,321 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <!--week4 testing-->
+    <!--banner-->
+    <div class="banner">
+      <div class="container">
+        <div class="banner-container position-relative">
+          <div
+            class="text-end position-absolute top-50 end-0 translate-middle-y"
+          >
+            <p class="banner-subtitle">Promise-Desert 2020 早春系列</p>
+            <h1 class="banner-h1 noto-bold">看得清，才能看得遠</h1>
+            <button type="button" class="btn btn-primary">立即購買</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- intro -->
+    <div class="intro bg-secondary">
+      <div class="container text-center py-7 py-md-10">
+        <p class="home-title noto-bold mb-6">用專業的心，做專業的事</p>
+        <ul
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-6 list-unstyled"
+        >
+          <li class="col">
+            <div>
+              <img
+                width="84px"
+                src="../assets/images/home-section2-1.png"
+                alt="section 1"
+              />
+              <p class="intro-card-title noto-bold">單一價格</p>
+            </div>
+            <p class="text-start">
+              無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
+            </p>
+          </li>
+          <li class="col">
+            <div>
+              <img
+                width="84px"
+                src="../assets/images/home-section2-2.png"
+                alt="section 1"
+              />
+              <p class="intro-card-title noto-bold">20 分鐘即可取件</p>
+            </div>
+            <p class="text-start">
+              為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+              20 分鐘即可完成。
+            </p>
+          </li>
+          <li class="col">
+            <div>
+              <img
+                width="84px"
+                src="../assets/images/home-section2-3.png"
+                alt="section 1"
+              />
+              <p class="intro-card-title noto-bold">安心售後服務</p>
+            </div>
+            <p class="text-start">
+              我們提供長達 120
+              天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+            </p>
+          </li>
+          <li class="col">
+            <div>
+              <img
+                width="84px"
+                src="../assets/images/home-sectioin2-4.png"
+                alt="section 1"
+              />
+              <p class="intro-card-title noto-bold">關於鏡片</p>
+            </div>
+            <p class="text-start">
+              使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 經典 -->
+    <div class="classic">
+      <div class="container text-center py-7 py-md-10">
+        <p class="home-title noto-bold mb-5 mb-md-8">經典系列鏡框</p>
+        <ul class="row row-cols-1 row-cols-lg-3 gy-5 list-unstyled">
+          <li class="col d-flex justify-content-center">
+            <div class="classic-card">
+              <a href="#">
+                <img
+                  class="img-fluid mb-2"
+                  src="../assets/images/home-section3-1.png"
+                  alt="section 3"
+                />
+                <p class="roboto-italic">OPTICAL</p>
+              </a>
+            </div>
+          </li>
+          <li class="col d-flex justify-content-center">
+            <div class="classic-card">
+              <a href="#">
+                <img
+                  class="img-fluid mb-2"
+                  src="../assets/images/home-section3-2.png"
+                  alt="section 3"
+                />
+                <p class="roboto-italic">SUNGLASSES</p>
+              </a>
+            </div>
+          </li>
+          <li class="col d-flex justify-content-center">
+            <div class="classic-card">
+              <a href="#">
+                <img
+                  class="img-fluid mb-2"
+                  src="../assets/images/home-section3-3.png"
+                  alt="section 3"
+                />
+                <p class="roboto-italic">FUNCTIONAL</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 聯名 -->
+    <div class="co-branding">
+      <div class="container text-center py-7 py-md-10">
+        <p class="home-title noto-bold text-light mb-5 mb-md-8">聯名設計鏡框</p>
+        <ul class="row row-cols-1 row-cols-lg-2 gx-0 gy-5 list-unstyled">
+          <li class="col d-flex justify-content-center">
+            <div class="co-branding-card">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="../assets/images/home-section4-1-sm.png"
+                    media="(max-width: 991px)"
+                    type="image/svg+xml"
+                  />
+                  <img
+                    src="../assets/images/home-section4-1.png"
+                    class="img-fluid"
+                    alt="section 4"
+                  />
+                </picture>
+                <p class="roboto-italic bg-light py-2">DOUBLE A+</p>
+              </a>
+            </div>
+          </li>
+          <li class="col d-flex justify-content-center">
+            <div class="co-branding-card">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="../assets/images/home-section4-2-sm.png"
+                    media="(max-width: 991px)"
+                    type="image/svg+xml"
+                  />
+                  <img
+                    src="../assets/images/home-section4-2.png"
+                    class="img-fluid"
+                    alt="section 4"
+                  />
+                </picture>
+                <p class="roboto-italic bg-light py-2">YOUTH</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 推薦 -->
+    <div class="recommend">
+      <div class="container text-center py-7 py-md-10">
+        <p class="home-title noto-bold mb-5 mb-md-8">顧客推薦</p>
+        <ul
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 gy-md-5 list-unstyled"
+        >
+          <li class="col">
+            <div class="card recommend-card">
+              <img
+                src="../assets/images/home-section5-1.png"
+                class="card-img-top"
+                alt="section 5"
+              />
+              <div class="card-body text-start d-flex flex-column">
+                <h6 class="card-title">Jessy</h6>
+                <p class="card-text">眼鏡品質優良，下次還會想來這邊購買！</p>
+                <p class="card-text mt-auto">
+                  <small class="text-body-secondary">2021/06/20</small>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card recommend-card">
+              <img
+                src="../assets/images/home-section5-2.png"
+                class="card-img-top"
+                alt="section 5"
+              />
+              <div class="card-body text-start d-flex flex-column">
+                <h6 class="card-title">凱倫</h6>
+                <p class="card-text">
+                  做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+                </p>
+                <p class="card-text mt-auto">
+                  <small class="text-body-secondary">2021/04/18</small>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card recommend-card">
+              <img
+                src="../assets/images/home-section5-3.png"
+                class="card-img-top"
+                alt="section 5"
+              />
+              <div class="card-body text-start d-flex flex-column">
+                <h6 class="card-title">悠悠</h6>
+                <p class="card-text">
+                  謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+                </p>
+                <p class="card-text mt-auto">
+                  <small class="text-body-secondary">2020/12/25</small>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card recommend-card">
+              <img
+                src="../assets/images/home-section5-4.png"
+                class="card-img-top"
+                alt="section 5"
+              />
+              <div class="card-body text-start d-flex flex-column">
+                <h6 class="card-title">Kyuan</h6>
+                <p class="card-text">服務很好，品質沒有任何問題，非常喜歡。</p>
+                <p class="card-text mt-auto">
+                  <small class="text-body-secondary">2020/10/31</small>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="intro bg-secondary">
+      <div class="container text-center py-7 py-md-10">
+        <p class="home-title noto-bold">聯絡我們</p>
+        <div class="row">
+          <div class="col-md-10 col-lg-6 mx-auto text-start">
+            <p class="py-5 pt-lg-8">
+              我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-4">
+                <label class="d-block" for="name">姓名</label>
+                <input
+                  class="contact-input"
+                  id="name"
+                  type="text"
+                  placeholder="陳小明"
+                />
+              </li>
+              <li class="mb-4">
+                <label class="d-block" for="phone">聯絡電話</label>
+                <input
+                  class="contact-input"
+                  id="phone"
+                  type="tel"
+                  placeholder="0912-345-678"
+                />
+              </li>
+              <li class="mb-4">
+                <label class="d-block" for="mail">電子郵件</label>
+                <input
+                  class="contact-input"
+                  id="mail"
+                  type="email"
+                  placeholder="example@email.com"
+                />
+              </li>
+              <li class="mb-4">
+                <label class="d-block" for="comment">意見反應</label>
+                <textarea
+                  class="contact-input"
+                  id="comment"
+                  type="text"
+                  placeholder="請輸入您的意見"
+                ></textarea>
+              </li>
+              <li class="d-flex mb-5 mb-md-8">
+                <a href="#" class="text-dark">
+                  <span class="material-icons"> crop_square </span>
+                </a>
+                <p>
+                  我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+                </p>
+              </li>
+            </ul>
+            <div class="text-center w-100">
+              <button type="button" class="btn btn-primary contact-btn">
+                確認送出
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <%- include('./layout/footer'); -%>
 
