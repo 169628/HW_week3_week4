@@ -9,11 +9,11 @@
 //banner
 .banner {
   //筆記: 圖片的 url 要以 html 檔案為出現點，不然會找不到
-  background-image: url("../assets/images/home-header.png");
+  background-image: url("/assets/images/home-header.png");
   background-size: cover;
   background-position: center;
   @include pad {
-    background-image: url("../assets/images/home-header-sm.png");
+    background-image: url("/assets/images/home-header-sm.png");
   }
 }
 
@@ -64,11 +64,11 @@
 
 //聯名
 .co-branding {
-  background-image: url("../assets/images/index-bg.png");
+  background-image: url("/assets/images/index-bg.png");
   background-size: cover;
   background-position: center;
   @include pad {
-    background-image: url("../assets/images/index-bg-sm.png");
+    background-image: url("/assets/images/index-bg-sm.png");
   }
 }
 
