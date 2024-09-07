@@ -13,11 +13,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <script type="module" crossorigin src="/HW_week3_week4/assets/main-7a024abc.js"></script>
-    <link rel="stylesheet" href="/HW_week3_week4/assets/main-b63cccb8.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" crossorigin src="/HW_week3_week4/assets/main-0499ba25.js"></script>
+    <link rel="stylesheet" href="/HW_week3_week4/assets/main-0f330d96.css">
   </head>
   <body>
-    <div class="header bg-primary">
+    <nav class="header bg-primary">
   <div
     class="container-md header-container-px d-md-flex justify-content-md-between"
   >
@@ -32,32 +33,34 @@
       </a>
     </div>
     <!-- cards -->
-    <div class="header-card-container d-flex flex-wrap">
-      <div
+    <ul
+      class="header-card-container list-unstyled d-flex flex-wrap justify-content-md-between"
+    >
+      <li
         class="header-card-col d-md-flex justify-content-md-end align-items-md-center"
       >
         <a href="#" class="bg-primary header-card-link">系列鏡框</a>
-      </div>
-      <div
+      </li>
+      <li
         class="header-card-col d-md-flex justify-content-md-end align-items-md-center"
       >
         <a href="storeLocation.html" class="bg-primary header-card-link"
           >門市據點</a
         >
-      </div>
-      <div
+      </li>
+      <li
         class="header-card-col d-md-flex justify-content-md-end align-items-md-center"
       >
         <a href="#" class="bg-primary header-card-link">部落格</a>
-      </div>
-      <div
+      </li>
+      <li
         class="header-card-col d-md-flex justify-content-md-end align-items-md-center"
       >
         <a href="#" class="bg-primary header-card-link">常見問題</a>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
-</div>
+</nav>
 
     <!--banner-->
     <div class="banner">
@@ -81,7 +84,7 @@
         <ul
           class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-6 list-unstyled"
         >
-          <li class="col">
+          <li class="col" data-aos="zoom-in-up">
             <div>
               <img
                 width="84px"
@@ -94,7 +97,7 @@
               無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
             </p>
           </li>
-          <li class="col">
+          <li class="col" data-aos="zoom-in-up">
             <div>
               <img
                 width="84px"
@@ -108,7 +111,7 @@
               20 分鐘即可完成。
             </p>
           </li>
-          <li class="col">
+          <li class="col" data-aos="zoom-in-up">
             <div>
               <img
                 width="84px"
@@ -122,7 +125,7 @@
               天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
             </p>
           </li>
-          <li class="col">
+          <li class="col" data-aos="zoom-in-up">
             <div>
               <img
                 width="84px"
@@ -145,7 +148,7 @@
         <p class="home-title noto-bold mb-5 mb-md-8">經典系列鏡框</p>
         <ul class="row row-cols-1 row-cols-lg-3 gy-5 list-unstyled">
           <li class="col d-flex justify-content-center">
-            <div class="classic-card">
+            <div class="classic-card" data-aos="flip-left">
               <a href="#">
                 <img
                   class="img-fluid mb-2"
@@ -157,7 +160,7 @@
             </div>
           </li>
           <li class="col d-flex justify-content-center">
-            <div class="classic-card">
+            <div class="classic-card" data-aos="flip-left">
               <a href="#">
                 <img
                   class="img-fluid mb-2"
@@ -169,7 +172,7 @@
             </div>
           </li>
           <li class="col d-flex justify-content-center">
-            <div class="classic-card">
+            <div class="classic-card" data-aos="flip-left">
               <a href="#">
                 <img
                   class="img-fluid mb-2"
@@ -190,7 +193,7 @@
         <p class="home-title noto-bold text-light mb-5 mb-md-8">聯名設計鏡框</p>
         <ul class="row row-cols-1 row-cols-lg-2 gx-0 gy-5 list-unstyled">
           <li class="col d-flex justify-content-center">
-            <div class="co-branding-card">
+            <div class="co-branding-card" data-aos="fade-right">
               <a href="#">
                 <picture>
                   <source
@@ -209,7 +212,7 @@
             </div>
           </li>
           <li class="col d-flex justify-content-center">
-            <div class="co-branding-card">
+            <div class="co-branding-card" data-aos="fade-left">
               <a href="#">
                 <picture>
                   <source
@@ -239,7 +242,7 @@
           class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 gy-md-5 list-unstyled"
         >
           <li class="col">
-            <div class="card recommend-card">
+            <div class="card recommend-card" data-aos="fade-up">
               <img
                 src="/HW_week3_week4/assets/home-section5-1-75717951.png"
                 class="card-img-top"
@@ -255,7 +258,7 @@
             </div>
           </li>
           <li class="col">
-            <div class="card recommend-card">
+            <div class="card recommend-card" data-aos="fade-down">
               <img
                 src="/HW_week3_week4/assets/home-section5-2-bf28c8b7.png"
                 class="card-img-top"
@@ -273,7 +276,7 @@
             </div>
           </li>
           <li class="col">
-            <div class="card recommend-card">
+            <div class="card recommend-card" data-aos="fade-up">
               <img
                 src="/HW_week3_week4/assets/home-section5-3-978a0702.png"
                 class="card-img-top"
@@ -291,7 +294,7 @@
             </div>
           </li>
           <li class="col">
-            <div class="card recommend-card">
+            <div class="card recommend-card" data-aos="fade-down">
               <img
                 src="/HW_week3_week4/assets/home-section5-4-cc3480ec.png"
                 class="card-img-top"
@@ -464,7 +467,10 @@
     </div>
   </div>
 </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
   </body>
 </html>
